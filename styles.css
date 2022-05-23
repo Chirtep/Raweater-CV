@@ -98,6 +98,18 @@ body {
     align-items: flex-end;
     width: 25%;
     justify-content: flex-end;
+    height: calc(30px + (40 - 30) * ((100vw - 540px) / (1920 - 540)));
+    align-self: flex-end;
+}
+
+.links__wrapper a {
+    height: 100%;
+    text-align: center;
+    font-size: calc(10px + (16 - 10) * ((100vw - 540px) / (1920 - 540)));
+}
+
+.links__wrapper img {
+    height: 100%;
 }
 
 .telegram-icon {
